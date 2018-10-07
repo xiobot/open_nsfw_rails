@@ -2,7 +2,7 @@ class NsfwController < ApplicationController
     
   ENDPOINT = "35.209.153.21:666"
   
-  def index
+  def create
     nsfw_score = HTTParty.post("http://#{ENDPOINT}", {
       body: {
         url: params[:image]
