@@ -6,7 +6,7 @@ ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 gem 'sqlite3'
-gem 'puma', :git => 'https://github.com/xiobot/puma.git' # puma unlimited fork by xiobot
+gem 'puma'
 gem 'httparty'
 gem 'rack-cors'
 
