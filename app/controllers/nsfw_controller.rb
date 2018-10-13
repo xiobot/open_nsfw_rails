@@ -8,7 +8,7 @@ class NsfwController < ApplicationController
       body: {
         url: b64
       },
-      timeout: 120
+      timeout: 60
     })
     render json: nsfw_score.to_s.to_f
   end
