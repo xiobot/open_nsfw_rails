@@ -1,5 +1,5 @@
-threads 0, 20
-workers 20
+threads 0, 5
+workers 160
 
 port        ENV.fetch("PORT") { 3000 }
 
